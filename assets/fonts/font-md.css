@@ -1,0 +1,26 @@
+/*
+      www.OnlineWebFonts.Com 
+      You must credit the author Copy this link on your web 
+      <div>Font made from <a href="http://www.onlinewebfonts.com/fonts">Web Fonts</a>is licensed by CC BY 4.0</div>
+      OR
+      <a href="http://www.onlinewebfonts.com/fonts">Web Fonts</a>
+
+      CSS rules to specify fonts
+
+      font-family: "Futura Md BT Medium";;
+
+*/
+
+@font-face{
+    font-family: "Futura Md BT Medium";
+    src: url("https://db.onlinewebfonts.com/t/e55e9079ee863276569c8a68d776ef04.eot");
+    src: url("https://db.onlinewebfonts.com/t/e55e9079ee863276569c8a68d776ef04.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/e55e9079ee863276569c8a68d776ef04.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/e55e9079ee863276569c8a68d776ef04.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/e55e9079ee863276569c8a68d776ef04.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/e55e9079ee863276569c8a68d776ef04.svg#Futura Md BT Medium")format("svg");
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}
+ 
