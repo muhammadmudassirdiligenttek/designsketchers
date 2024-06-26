@@ -67,9 +67,11 @@ a {
 .my-btn.secondary {
     background-color: var(--secondary-color);
 }
-.my-btn.secondary:hover{
+
+.my-btn.secondary:hover {
     background-color: var(--primary-color);
 }
+
 .header {
     background-color: var(--primary-color);
     padding: 1.2rem 2rem;
@@ -545,34 +547,41 @@ h2 {
     font-family: "Bricolage Grotesque", sans-serif !important;
     font-weight: 700;
 }
-.package-box hr{
+
+.package-box hr {
     color: #fff;
     opacity: 1 !important;
 }
-.package-box .bottom ul{
+
+.package-box .bottom ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
-.package-box .bottom ul li{
+
+.package-box .bottom ul li {
     font-family: "Futura Bk BT Book" !important;
     font-size: 22px;
     color: #fff;
     margin-bottom: 1rem;
 }
-.testimonial{
+
+.testimonial {
     padding: 2rem 0;
 }
-.testimonial h2{    
+
+.testimonial h2 {
     color: #222222;
 }
-.testimonial .splide__arrows{
-    margin-top: 2rem;
+
+.testimonial .splide__arrows {
+    margin-top: 5rem;
     display: flex;
     justify-content: center;
     gap: 1rem;
 }
-.testimonial .splide__arrow{
+
+.testimonial .splide__arrow {
     position: initial !important;
     transform: initial !important;
     border-radius: 15px !important;
@@ -581,22 +590,157 @@ h2 {
     opacity: 1;
     background-color: #fff;
 }
-.testimonial .splide__arrow:hover{
+
+.testimonial .splide__arrow:hover {
     background-color: #0D0D0E;
 }
-.testimonial .splide__arrow:hover i{
+
+.testimonial .splide__arrow:hover i {
     color: #fff;
 }
-.testimonial .splide__arrow i{
+
+.testimonial .splide__arrow i {
     font-size: 2rem;
 }
-.testimonial .testimonial-slide .splide__slide{
+
+.testimonial .testimonial-slide .splide__slide {
     text-align: center;
     font-family: "Reenie Beanie", cursive !important;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
     line-height: 36px;
     color: #000000;
+}
+
+.testimonial .float {
+    position: absolute;
+    bottom: -23px;
+    left: -14px;
+}
+
+.contact-form {
+    background: linear-gradient(91.33deg, #87CEEB 1.96%, #FFD1DC 50.55%, #B20561 96.31%);
+    padding: 7rem 0;
+}
+.contact-form h3{
+    font-family: "Bricolage Grotesque", sans-serif !important;
+    font-weight: 500;
+    font-size: 50px;
+    color: #0D0D0E;
+}
+.contact-form p{
+    color: #0D0D0E;
+    font-family: "Futura Bk BT Book" !important;
+    font-weight: 500;
+    font-size: 20px;
+}
+.contact-form a{
+    color: #0D0D0E !important;
+}
+
+.form-control {
+    background-color: #fff;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.form-control::placeholder {
+    color: #667085;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Futura Bk BT Book" !important;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: var(--primary-color);
+}
+
+.form-btn {
+    background-color: var(--primary-color);
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 20px;
+    width: 100%;
+    transition: all .3s;
+}
+
+.form-btn:hover {
+    background-color: var(--secondary-color);
+}
+footer{
+    padding: 4rem 0;
+    background-color: #0D0D0E;
+    background-image: url('../images/contact-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+footer p{
+    color: #fff;
+    font-family: "Futura Bk BT Book" !important;
+    font-size: 20px;
+}
+footer .newletter{
+    position: relative;
+}
+footer .newletter .form-control{
+    border-radius: 2rem;
+    border: 1px solid #D483A4;
+}
+footer .newletter button{
+    position: absolute;
+    padding: 0;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 6px;
+}
+footer h5{
+    color: #fff;
+    font-weight: 700;
+    font-size: 33px;
+    margin-bottom: 2rem;
+}
+footer .footer-list{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-family: "Futura Bk BT Book" !important;
+    
+}
+footer .footer-list li{
+    margin-bottom: 1rem;
+}
+footer .footer-list li a{
+    font-size: 20px;
+    color: #fff;
+}
+.footer-bottom{
+    background-color: var(--secondary-color);
+    padding: .8rem 0;
+}
+.footer-bottom p{
+    color: #fff;
+    font-size: 20px;
+    font-family: "Futura Bk BT Book" !important;
+    margin-bottom: 0;
+    text-align: center;
 }
 
 @keyframes port2 {

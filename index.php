@@ -79,20 +79,20 @@
             <div class="marque-1 marque">
                 <div class="owl-carousel marque-carousel">
                     <div class="text">
-                        <p>Website Design - Website Development - Branding - Digital Marketing - Website Design - Website Development - Branding - Digital Marketing - Branding -</p>
+                        <p>Website Design - Website Development - Branding - Digital Marketing - Website Design - Website Development - Branding - Digital Marketing - Website Design -</p>
                     </div>
                     <div class="text">
-                        <p>Website Design - Website Development - Branding - Digital Marketing - Website Design - Website Development - Branding - Digital Marketing - Branding -</p>
+                        <p>Website Design - Website Development - Branding - Digital Marketing - Website Design - Website Development - Branding - Digital Marketing - Website Design -</p>
                     </div>
                 </div>
             </div>
             <div class="marque-2 marque">
                 <div class="owl-carousel marque-carousel-2">
                     <div class="text">
-                        <p>Website Design - Website Development - Branding - Digital Marketing - Website Design - Website Development - Branding - Digital Marketing - Branding -</p>
+                        <p>Website Design - Website Development - Branding - Digital Marketing - Website Design - Website Development - Branding - Digital Marketing - Website Design -</p>
                     </div>
                     <div class="text">
-                        <p>Website Design - Website Development - Branding - Digital Marketing - Website Design - Website Development - Branding - Digital Marketing- Branding -</p>
+                        <p>Website Design - Website Development - Branding - Digital Marketing - Website Design - Website Development - Branding - Digital Marketing - Website Design -</p>
                     </div>
                 </div>
             </div>
@@ -462,7 +462,8 @@
                 <div class="col-12 mb-4 text-center">
                     <h2>Experience of Serving Clients</h2>
                 </div>
-                <div class="col-lg-9 mx-auto">
+                <div class="col-lg-9 position-relative mx-auto">
+                    <img src="assets/images/badge.png" alt="" class="img-fluid float">
                     <div class="splide testimonial-slide">
                         <div class="splide__track">
                             <ul class="splide__list list-unstyled">
@@ -485,6 +486,92 @@
         </div>
     </section>
 
+    <section class="contact-form">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 animate__fadeInLeft wow" data-wow-offset="100" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInLeft;">
+                    <h3 class="mb-4">Need assistance?
+                        We’re here for you!</h3>
+                    <p class="mb-5">Should you require further information or need assistance with the services we offer, feel free to get in touch with us by filling out the form attached below!</p>
+                    <div class="text">
+                        <p class="mb-3">George is available to help</p>
+                        <p class="mb-0" style="font-size: 16px;">Call us (TOLL FREE)</p>
+                        <a href="#" class="text-white text-decoration-underline">
+                            <p class="font-Upright mt-4">+1-234-456-7890</p>
+                        </a>
+                    </div>
+                    <div class="text-end">
+                        <img loading="lazy" src="assets/images/contact-float.png" alt="" class="img-fluid ms-auto">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <form action="#">
+                        <input type="text" placeholder="Enter First Name" name="name" class="form-control animate__fadeInRight wow" data-wow-offset="100" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInRight;">
+                        <input type="email" placeholder="Enter Your Email" name="email" class="form-control animate__fadeInRight wow" data-wow-offset="100" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInRight;">
+                        <input type="number" placeholder="Enter Your Phone Number" name="phone" class="form-control animate__fadeInRight wow" data-wow-offset="100" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInRight;">
+                        <textarea name="message" cols="30" rows="10" class="form-control animate__fadeInRight wow" placeholder="Tell us how can we help you" data-wow-offset="100" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInRight;"></textarea>
+                        <button type="submit" class="form-btn animate__fadeInRight wow" data-wow-offset="100" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInRight;">Submit</button>
+                        <p class="mt-3">George will be contacting you shortly and if you want to contact him click here to call him now.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 me-auto">
+                    <div class="logo mb-4">
+                        <img src="assets/images/logo-white.png" alt="" class="img-fluid w-75">
+                    </div>
+                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqua.</p>
+                    <div class="newletter">
+                        <input type="email" class="form-control" placeholder="Enter your email">
+                        <button type="submit" class="my-btn secondary">
+                            <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.1746 8.88918L2.38656 21.2978L0.663749 19.2446L15.4518 6.836L16.3607 6.07333L15.1755 6.13004C12.2012 6.27238 8.7388 5.73021 5.0897 3.87813L6.37681 1.48997C13.3064 4.98878 19.3143 3.04107 21.6829 1.5576L22.5151 2.63701L22.5252 2.65012L22.5364 2.66235L23.4549 3.66935C21.5827 5.74435 18.6213 11.3228 20.8636 18.7547L18.2882 19.6075C17.0979 15.6922 17.1653 12.1883 17.8219 9.28379L18.0835 8.12654L17.1746 8.88918Z" fill="white" stroke="#B20561" stroke-width="0.8" />
+                            </svg>
+
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <h5>Services</h5>
+                    <ul class="footer-list">
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Development</a></li>
+                        <li><a href="#">Branding</a></li>
+                        <li><a href="#">Digital Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h5>Company</h5>
+                    <ul class="footer-list">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h5>Office Information</h5>
+                    <ul class="footer-list">
+                        <li><a href="#">sales@designsketchers.com</a></li>
+                        <li><a href="#">(213) 460-5686</a></li>
+                        <li><a href="#">2601 Oakdale Rd Modesto, CA 95355
+                                Avenue 12 Madera 93636 United States</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-bottom">
+        <div class="container"> 
+            <p>Copyright © 2024. All rights reserved by Design designsketchers.</p>
+        </div>
+    </div>
+
 
 
 
@@ -496,6 +583,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js
 "></script>
+<script src="assets/js/smooth-scroll.js"></script>
     <script>
         let mm = new MagnetMouse({
             magnet: {
